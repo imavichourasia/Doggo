@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+@keyframes spin {
+    to{
+        transform: rotateZ(360deg);
+    }
+
+}
+
+.spinner{
+    font-size: 50px;
+    text-align: center;
+    animation: 5s spin linear infinite;
+    display: none;
+}
+
+.dog-img{
+    display:none;
+}
+
+.show{
+    display: block;
+}
+
+.nav{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.headin{
+    padding:15px;
+}
+
+.selection{
+    padding: 15px;
+}
+
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+    /* height: 1920px;
+    width: 1080px; */
+}
